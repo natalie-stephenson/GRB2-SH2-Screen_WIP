@@ -1,0 +1,5 @@
+library(data.table)
+files <- list.files(pattern = "LUAD_CNV_genenames[0-9]+")
+write.csv(files, "files.csv")
+bind <- rbindlist(lapply(files, fread))
+write.csv(bind, "LUAD_CNV_genenames_bind.csv")
