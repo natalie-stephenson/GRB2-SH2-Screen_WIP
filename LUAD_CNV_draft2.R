@@ -1,15 +1,15 @@
 ###################################################################################################################
-# 													                                                                                      #
+# 													                                                              #
 # Script to pull CNV data from the TCGA LUAD data files and annotate the genes altered in GRB2 depleted samples.  #
-#													                                                                                        #
+#													                                                              #
 ###################################################################################################################
-#													                                                                                        # 
-# AUTHOR LIST:												                                                                            #
-#	Natalie Stephenson.   										                                                                      #	
-#													                                                                                        #
-# CURRENT STATUS OF SCRIPT:						                                                                            #
-#													                                                                                        #
-#	Although survival data has been downloaded and annotated onto one file from this script, the files used in the  # 
+#													                                                              # 
+# AUTHOR LIST:											                                                          #
+#	Natalie Stephenson.   									                                                      #	
+#													                                                              #
+# CURRENT STATUS OF SCRIPT:						                                                                  #
+#													                                                              #
+# Although survival data has been downloaded and annotated onto one file from this script, the files used in the  # 
 # reshaping step performed on MARC1 did not have this information within the script, as it was determined these   #
 # could be added at a later time more easily. The latest version of the script is currently at a stage where the  #
 # PCA step is being worked out. The point at which errors are occuring, and the errors being given, are annotated # 
